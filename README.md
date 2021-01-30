@@ -56,7 +56,6 @@ we should always *focus on the problem we try to solve*, and the patterns we enc
 
 `"Testing leads to failure, and failure leads to understanding."` *-- Burt Rutan*
  
-***
 
 #### 2.1 Hints
 
