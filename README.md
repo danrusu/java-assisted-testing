@@ -54,7 +54,7 @@ we should always *focus on the problem we try to solve*, and the patterns we enc
 
 ### 2. Java assisted testing
 
-`Testing leads to failure, and failure leads to understanding.` *- Burt Rutan -*
+`"Testing leads to failure, and failure leads to understanding."` *- Burt Rutan -*
  
 ***
 
@@ -69,9 +69,13 @@ we should always *focus on the problem we try to solve*, and the patterns we enc
 - [clean code](./resource/clean_code.JPG)
   - naming
     
-    `There are only two hard things in Computer Science: cache invalidation and naming things.` *- Phil Karlton -*
+    `"There are only two hard things in Computer Science: cache invalidation and naming things."` *- Phil Karlton -*
   - KISS
   - DRY
+  - YAGNI
+  - abstract carefully  
+  `Sometimes, the elegant implementation is just a function.  Not a method.  Not a class.  Not a framework.  Just a function.` *- John Carmack -* 
+
 
 
 - standardize test input (scenarios) and output (reports)
@@ -82,9 +86,20 @@ we should always *focus on the problem we try to solve*, and the patterns we enc
 - *IDE* - [IntelliJ](https://www.jetbrains.com/idea/download/#section=windows)
 
 
+- *project management tool* 
+  - [Maven](https://maven.apache.org/)
+  - [Gradle](https://gradle.org/)
+
+
 - *unit test framework*
   - [TestNG](https://testng.org/doc/)
   - [Junit5](https://junit.org/junit5/docs/current/user-guide/)
+
+
+- *logger* 
+  - [SLF4J](http://www.slf4j.org/)
+  - [Log4j 2](https://logging.apache.org/log4j/2.x/)
+  - [Logback](http://logback.qos.ch/)
 
 
 - *mocking* - [Mockito](https://site.mockito.org/)
@@ -107,4 +122,53 @@ we should always *focus on the problem we try to solve*, and the patterns we enc
 
 
 - *[Lombok](https://projectlombok.org/features/all)*
-   
+
+#### 2.3 Test projects POCs
+
+- [template-testng-cucumber](https://github.com/danrusu/template-testng-cucumber)
+
+
+- [template-junit5-cucumber](https://github.com/danrusu/template-junit5-cucumber)
+
+
+- [templateTestNg](https://github.com/danrusu/templateTestNG)
+
+
+- [REST helper](https://github.com/danrusu/simple-calculator-javalin)
+
+***
+
+#### 3. Declarative data processing - the Stream API
+
+- [@FunctionalInterface](https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html)
+  
+
+- [java.util.Function](https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html)
+
+
+- lambda and method reference
+
+
+- lazy evaluation
+
+
+- parallelism
+
+***
+
+#### 4. Resources
+
+- **Clean Code** - A Handbook of Agile Software Craftsmanship - Robert C. Martin
+
+
+- **Effective Java** - Third edition - Joshua Bloch
+
+
+- **Modern Java IN ACTION** - Raoul-Gabriel Urma, Mario Fusco, Alan Mycroft
+
+***
+
+`"There are two ways of constructing a software design: 
+One way is to make it so simple that there are obviously no deficiencies, 
+and the other way is to make it so complicated that there are no obvious deficiencies.
+The first method is far more difficult."` *- C. A. R. Hoare -*
