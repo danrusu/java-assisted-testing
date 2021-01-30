@@ -54,7 +54,7 @@ we should always *focus on the problem we try to solve*, and the patterns we enc
 
 ### 2. Java assisted testing
 
-`"Testing leads to failure, and failure leads to understanding."` *- Burt Rutan -*
+`"Testing leads to failure, and failure leads to understanding."` *-- Burt Rutan*
  
 ***
 
@@ -69,12 +69,12 @@ we should always *focus on the problem we try to solve*, and the patterns we enc
 - [clean code](./resource/clean_code.JPG)
   - naming
     
-    `"There are only two hard things in Computer Science: cache invalidation and naming things."` *- Phil Karlton -*
+    `"There are only two hard things in Computer Science: cache invalidation and naming things."` *-- Phil Karlton*
   - KISS
   - DRY
   - YAGNI
   - abstract carefully  
-  `Sometimes, the elegant implementation is just a function.  Not a method.  Not a class.  Not a framework.  Just a function.` *- John Carmack -* 
+  `Sometimes, the elegant implementation is just a function.  Not a method.  Not a class.  Not a framework.  Just a function.` *-- John Carmack* 
 
 
 
@@ -171,4 +171,4 @@ we should always *focus on the problem we try to solve*, and the patterns we enc
 `"There are two ways of constructing a software design: 
 One way is to make it so simple that there are obviously no deficiencies, 
 and the other way is to make it so complicated that there are no obvious deficiencies.
-The first method is far more difficult."` *- C. A. R. Hoare -*
+The first method is far more difficult."` *-- C. A. R. Hoare*
