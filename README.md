@@ -84,6 +84,9 @@ we should always *focus on the problem we try to solve*, and the patterns we enc
 
 - *IDE* - [IntelliJ](https://www.jetbrains.com/idea/download/#section=windows)
 
+  - [SonarLint](https://www.sonarlint.org/intellij)
+  - [Save Actions](https://plugins.jetbrains.com/plugin/7642-save-actions)
+  - *[Lombok](https://projectlombok.org/features/all)*
 
 - *project management tool* 
   - [Maven](https://maven.apache.org/)
@@ -118,9 +121,7 @@ we should always *focus on the problem we try to solve*, and the patterns we enc
 
 - *BDD test* - [Cucumber](https://cucumber.io/)
   - [Gherkin](https://cucumber.io/docs/gherkin/reference/) 
-
-
-- *[Lombok](https://projectlombok.org/features/all)*
+  
 
 #### 2.3 Test projects POCs
 
