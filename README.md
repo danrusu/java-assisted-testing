@@ -6,7 +6,7 @@
 
 ***
 
-*For me, automation scope is to buy time.*
+*For me, automation scope is to **buy time**.*
 That means, my entire career,
 I've tried to design tools that buy time.
 
