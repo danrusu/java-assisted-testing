@@ -6,7 +6,7 @@ import static demo.CarType.*;
 import static java.util.Arrays.asList;
 
 public class CarShop {
-
+/*
     private List<Car> cars;
 
     private CarShop(List<Car> cars) {
