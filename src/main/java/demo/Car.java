@@ -1,8 +1,5 @@
 package demo;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-
 public class Car {
     private String name;
     private float speed;
@@ -15,9 +12,6 @@ public class Car {
         System.out.println(WELCOME_MESSAGE);
     }
 
-    // Task - write a for test
-    public String getWelcomeMessage() {
-        // returns uppercase(WELCOME_MESSAGE + " to " + name + "!")
-        return "";
-    }
+    // Task - create a instance method with the following spec and write a test for it
+    // Method name is getWelcomeMessage and it returns uppercase(WELCOME_MESSAGE + " to " + car.name + "!")
 }
