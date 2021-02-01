@@ -1,8 +1,13 @@
 package demo;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
 public class Car {
     private String name;
     private float speed;
+    private CarType carType;
+    private int price;
 
     private static String WELCOME_MESSAGE = "welcome";
 
@@ -10,8 +15,9 @@ public class Car {
         System.out.println(WELCOME_MESSAGE);
     }
 
+    // Task - write a for test
     public String getWelcomeMessage() {
-        // returns WELCOME_MESSAGE + " in " + name
+        // returns uppercase(WELCOME_MESSAGE + " to " + name + "!")
         return "";
     }
 }
