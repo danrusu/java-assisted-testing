@@ -12,6 +12,9 @@ public class Car {
         System.out.println(WELCOME_MESSAGE);
     }
 
-    // Task - create a instance method with the following spec and write a test for it
-    // Method name is getWelcomeMessage and it returns uppercase(WELCOME_MESSAGE + " to " + car.name + "!")
+    // Task
+    // 1. Create constructor, getters and override to String
+    // 2. Create a instance method with the following spec and write a test for it
+    // - the method name is getWelcomeMessage and
+    // it returns uppercase(WELCOME_MESSAGE + " to " + car.name + "!")
 }

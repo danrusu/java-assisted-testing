@@ -4,5 +4,5 @@ public enum CarType {
     SEDAN,
     SPORT,
     SUV,
-    CABRIO
+    CONVERTIBLE
 }
