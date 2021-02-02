@@ -95,11 +95,13 @@ the patterns we encounter.
 
 - [clean code](./resource/clean_code.JPG)
     - naming
+    
       `"There are only two hard things in Computer Science: cache invalidation and naming things."` *-- Phil Karlton*
     - KISS
     - DRY
     - YAGNI
     - abstract carefully  
+    
       `Sometimes, the elegant implementation is just a function. Not a method. Not a class. Not a framework. Just a function.` *
       -- John Carmack*
 
