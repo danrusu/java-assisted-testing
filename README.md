@@ -17,11 +17,43 @@ I will try to emphasize a few practices and tools that will make a difference in
 Automation tools only assist us in our attempt to buy time, we should always *focus on the problem we try to solve*, and
 the patterns we encounter.
 
-| Contact  |                                                 |         
-| ---      | ---                                             |
-| LinkedIn | [Profile](https://www.linkedin.com/in/rusu-dan) |
-| Email    | danginkgo@yahoo.com                             |
-| Skype    | danginkgo                                       |
+<table>
+<tr>
+<td colspan="2">
+  <b>Contact</b>
+</td>
+<td rowspan="4">
+  <img src="https://github.com/danrusu/java-assisted-testing/tree/master/resource/nagarro_logo.png">
+</td>
+</tr>
+
+<tr>
+<td>
+  LinkedIn
+</td>
+<td>
+  https://www.linkedin.com/in/rusu-dan/
+</td>
+</tr>
+
+<tr>
+<td>
+  Email
+</td>
+<td>
+  danginkgo@yahoo.com
+</td>
+</tr> 
+
+<tr>
+<td>
+  Skype
+</td>
+<td>
+  danginkgo
+</td>
+</tr>
+</table>
 
 ***
 
