@@ -3,6 +3,5 @@ package demo;
 public enum CarType {
     SEDAN,
     SPORT,
-    SUV,
-    CONVERTIBLE
+    SUV
 }
