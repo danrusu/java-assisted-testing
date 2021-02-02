@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import java.util.IntSummaryStatistics;
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 
 import static demo.CarShop.createDefaultCarShop;
@@ -23,8 +24,8 @@ public class CarShopTest {
     //1. Get all Porsche car names
     public void task1Test() {
         final List<String> porscheCarNames = carShop.getCars().stream()
-                .filter(car -> car.getName().startsWith("Porsche"))
                 .map(Car::getName)
+                .filter(name -> name.startsWith("Porsche"))
                 .collect(toList());
         porscheCarNames.forEach(System.out::println);
     }
@@ -51,10 +52,9 @@ public class CarShopTest {
     @Test
     //4. Get the fastest car
     public void task4Test() {
-        final Car fastestCar = carShop.getCars().stream()
-                .collect(maxBy(comparing(Car::getSpeed)))
-                .get();
-        System.out.println(fastestCar);
+        final Optional<Car> fastestCar = carShop.getCars().stream()
+                .max(comparing(Car::getSpeed));
+        fastestCar.ifPresent(System.out::println);
     }
 
     @Test
