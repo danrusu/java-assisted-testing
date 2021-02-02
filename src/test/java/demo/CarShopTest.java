@@ -25,8 +25,8 @@ public class CarShopTest {
     //1. Get all Porsche car names
     public void testTask1() {
         final List<String> porscheCarNames = carShop.getCars().stream()
+                .filter(hasName("Porsche"))
                 .map(Car::getName)
-                .filter(name -> name.startsWith("Porsche"))
                 .collect(toList());
         porscheCarNames.forEach(System.out::println);
     }
