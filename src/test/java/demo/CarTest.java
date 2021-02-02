@@ -3,7 +3,7 @@ package demo;
 import org.testng.annotations.Test;
 
 import static demo.CarType.SEDAN;
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class CarTest {
 
