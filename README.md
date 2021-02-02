@@ -1,6 +1,5 @@
 # Java assisted testing
 
-***
 
 ***I consider time to be the most valuable resource in our life.***
 
@@ -60,8 +59,6 @@ the patterns we encounter.
 ***
 
 # Roadmap
-
-***
 
 ### 1. Generic concepts
 
