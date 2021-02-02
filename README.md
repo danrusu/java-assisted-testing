@@ -23,7 +23,9 @@ the patterns we encounter.
   <b>Contact</b>
 </td>
 <td rowspan="4">
-  <img src="https://github.com/danrusu/java-assisted-testing/tree/master/resource/nagarro_logo.png">
+  <a href="https://www.nagarro.com/en">
+    <img alt="Nagarro" src="https://github.com/danrusu/java-assisted-testing/tree/master/resource/nagarro_logo.png">
+  </a>
 </td>
 </tr>
 
@@ -42,6 +44,8 @@ the patterns we encounter.
 </td>
 <td>
   danginkgo@yahoo.com
+  <br/>
+  dan.rusu@nagarro.com
 </td>
 </tr> 
 
