@@ -23,7 +23,7 @@ public class CarShopTest {
 
     @Test
     //1. Get all Porsche car names
-    public void task1Test() {
+    public void testTask1() {
         final List<String> porscheCarNames = carShop.getCars().stream()
                 .map(Car::getName)
                 .filter(name -> name.startsWith("Porsche"))
@@ -33,7 +33,7 @@ public class CarShopTest {
 
     @Test
     //2. Get all car types
-    public void task2Test() {
+    public void testTask2() {
         final Set<CarType> carTypes = carShop.getCars().stream()
                 .map(Car::getCarType)
                 .collect(toSet());
@@ -42,7 +42,7 @@ public class CarShopTest {
 
     @Test
     //3. Get a list of Porsche cars sorted ascending by price
-    public void task3Test() {
+    public void testTask3() {
         final List<Car> porscheCars = carShop.getCars().stream()
                 .filter(hasName("Porsche"))
                 .sorted(comparing(Car::getPrice))
@@ -52,7 +52,7 @@ public class CarShopTest {
 
     @Test
     //4. Get the fastest car
-    public void task4Test() {
+    public void testTask4() {
         final Optional<Car> fastestCar = carShop.getCars().stream()
                 .max(comparing(Car::getSpeed));
         fastestCar.ifPresent(System.out::println);
@@ -60,7 +60,7 @@ public class CarShopTest {
 
     @Test
     //5. Get an average price for BMW cars
-    public void task5Test() {
+    public void testTask5() {
         final Double bmwAveragePrice = carShop.getCars().stream()
                 .filter(hasName("BMW"))
                 .collect(averagingInt(Car::getPrice));
@@ -69,7 +69,7 @@ public class CarShopTest {
 
     @Test
     //6. Get BMW cars price statistics (count, total price, average price, min/max price)
-    public void task6Test() {
+    public void testTask6() {
         final IntSummaryStatistics bmwPriceStatistics = carShop.getCars().stream()
                 .filter(hasName("BMW"))
                 .collect(summarizingInt(Car::getPrice));
