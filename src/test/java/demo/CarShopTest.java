@@ -7,6 +7,7 @@ import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
+import java.util.function.Predicate;
 
 import static demo.CarShop.createDefaultCarShop;
 import static java.util.Comparator.comparing;
@@ -43,7 +44,7 @@ public class CarShopTest {
     //3. Get a list of Porsche cars sorted ascending by price
     public void task3Test() {
         final List<Car> porscheCars = carShop.getCars().stream()
-                .filter(car -> car.getName().startsWith("Porsche"))
+                .filter(hasName("Porsche"))
                 .sorted(comparing(Car::getPrice))
                 .collect(toList());
         porscheCars.forEach(System.out::println);
@@ -61,7 +62,7 @@ public class CarShopTest {
     //5. Get an average price for BMW cars
     public void task5Test() {
         final Double bmwAveragePrice = carShop.getCars().stream()
-                .filter(car -> car.getName().startsWith("BMW"))
+                .filter(hasName("BMW"))
                 .collect(averagingInt(Car::getPrice));
         System.out.println("BMW average price: " + bmwAveragePrice);
     }
@@ -70,9 +71,13 @@ public class CarShopTest {
     //6. Get BMW cars price statistics (count, total price, average price, min/max price)
     public void task6Test() {
         final IntSummaryStatistics bmwPriceStatistics = carShop.getCars().stream()
-                .filter(car -> car.getName().startsWith("BMW"))
+                .filter(hasName("BMW"))
                 .collect(summarizingInt(Car::getPrice));
         System.out.println(bmwPriceStatistics);
+    }
+
+    private Predicate<Car> hasName(final String name) {
+        return car -> car.getName().startsWith(name);
     }
 
 }
