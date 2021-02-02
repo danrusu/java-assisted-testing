@@ -23,9 +23,7 @@ the patterns we encounter.
   <b>Contact</b>
 </td>
 <td rowspan="4">
-  <a href="https://www.nagarro.com/en">
-    <img alt="Nagarro" src="https://github.com/danrusu/java-assisted-testing/tree/master/resource/nagarro_logo.png">
-  </a>
+    <a href="https://www.nagarro.com/en">Nagarro</a>
 </td>
 </tr>
 
