@@ -1,6 +1,5 @@
 package demo;
 
-import lombok.AllArgsConstructor;
 import lombok.Value;
 import lombok.extern.slf4j.Slf4j;
 
@@ -14,9 +13,8 @@ import lombok.extern.slf4j.Slf4j;
 5. Simplify code with Lombok.
 */
 
-@AllArgsConstructor
-@Value
-@Slf4j
+@Value // https://projectlombok.org/features/Value
+@Slf4j // https://projectlombok.org/api/lombok/extern/slf4j/Slf4j.html
 public class Car {
     String name;
     float speed;
